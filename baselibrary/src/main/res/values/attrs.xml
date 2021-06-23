@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义验证码输入框 属性 -->
+    <declare-styleable name="AuthCodeInputView">
+        <!-- 当前输入位分割线颜色 -->
+        <attr name="currentSplitLineColor" format="reference|color" />
+        <!-- 其他输入位分割线颜色 -->
+        <attr name="otherSplitLineColor" format="reference|color" />
+        <!-- 分割线高度 -->
+        <attr name="splitLineHeight" format="dimension" />
+        <!-- 验证码位数 -->
+        <attr name="digit" format="integer" />
+        <!-- 单个验证码宽度 -->
+        <attr name="singleCaptchaWidth" format="dimension" />
+        <!-- 验证码当前输入位字体颜色 -->
+        <attr name="currentTextColor" format="reference|color" />
+        <!-- 验证码当前输入位字体大小 -->
+        <attr name="currentTextSize" format="dimension" />
+        <!-- 验证码其他输入位字体颜色 -->
+        <attr name="otherTextColor" format="reference|color" />
+        <!-- 验证码其它输入位字体大小 -->
+        <attr name="otherTextSize" format="dimension" />
+        <!-- 默认颜色 -->
+        <attr name="defaultColor" format="reference|color" />
+        <!-- 默认字体大小 -->
+        <attr name="defaultTextSize" format="dimension" />
+        <!-- 默认间距 -->
+        <attr name="defaultSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CodeInputView">
+        <!-- 边框宽度 -->
+        <attr name="borderWidth" format="dimension" />
+        <!-- 边框高度 -->
+        <attr name="borderHeight" format="dimension" />
+        <!-- 边框间距 -->
+        <attr name="borderSpacing" format="dimension" />
+        <!-- 边框背景图 -->
+        <attr name="borderImage" format="reference" />
+        <!-- 最大输入长度 -->
+        <attr name="android:maxLength" />
+    </declare-styleable>
+
+    <declare-styleable name="TitleBarLayout">
+        <attr name="title_text" format="string" />
+        <attr name="right_text" format="string" />
+        <attr name="right_img" format="reference|color" />
+        <attr name="presenter" format="reference" />
+        <attr name="is_show_left_img" format="boolean" />
+        <attr name="theme_mode">
+            <enum name="light" value="1" />
+            <enum name="dark" value="0" />
+        </attr>
+        <attr name="bg_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="RadioBottom">
+        <attr name="bottom_text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="back_ground" format="color" />
+        <attr name="radio_size" format="dimension" />
+        <attr name="is_stroke" format="boolean" />
+        <attr name="is_bold" format="boolean" />
+        <attr name="text_size" format="dimension" />
+    </declare-styleable>
+
+</resources>
